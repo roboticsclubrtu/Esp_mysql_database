@@ -13,7 +13,7 @@ $servername = "localhost";		//example = localhost or 192.168.0.0
   if($conn){ 
   echo"connected";}
  
- if (isset($_GET['name'])){
+ if (isset($_GET['name'])){ // $name has the value to be inserted in the database
 
 $name = $_GET['name'];
 
